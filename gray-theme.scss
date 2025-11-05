@@ -1,15 +1,20 @@
 /*-- scss:defaults --*/
 
+// NOVI DODATAK: Jarko crvena
+$bright-red: #8b0000; // Klasična jarko crvena
+
 // 1. Postavke fonta
 $font-family-sans-serif: "Roboto", sans-serif;
 
 // 2. Postavke boja
 $body-bg: #aaaaaa;
 $body-color: #000;
-$link-color: #000;
-$link-color-hover: #000;
 $selection-bg: #444;
 $selection-color: #fff;
+
+// AŽURIRANO: Postavi linkove na crvenu boju
+$link-color: $bright-red;
+$link-color-hover: $bright-red;
 
 // 3. Prilagodba varijabli za Reveal.js
 $r-main-font: $font-family-sans-serif;
@@ -18,8 +23,10 @@ $r-heading-font-weight: 700;
 $r-main-font-size: 38px;
 $r-heading-color: #000;
 $r-main-color: #000;
-$r-link-color: #000;
-$r-link-color-hover: #000;
+
+// AŽURIRANO: Postavi linkove na slajdu na crvenu boju
+$r-link-color: $bright-red;
+$r-link-color-hover: $bright-red;
 $r-background-color: #aaaaaa;
 
 /*-- scss:rules --*/
@@ -27,29 +34,31 @@ $r-background-color: #aaaaaa;
 // 1. Uvezi Roboto font (mora biti online)
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-// 2. Force the font on the main elements
-// Korištenje !important je "nuklearna" opcija da budemo sigurni
+// 2. Primijeni font
 body, .reveal {
   font-family: 'Roboto', sans-serif !important;
 }
-
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
   font-family: 'Roboto', sans-serif !important;
-  font-weight: 700; // Osiguraj da su naslovi podebljani
+  font-weight: 700;
 }
 
-// 3. Pravila za linkove
+// 3. AŽURIRANA PRAVILA ZA LINKOVE
+// Linkovi su sada crveni i podcrtani, s crvenim "glow" efektom na hover
 a {
+  color: $r-link-color;
   text-decoration: underline;
+  text-shadow: none;
+  transition: text-shadow 0.2s ease-in-out; // Glatka tranzicija za glow
 }
 a:hover {
+  color: $r-link-color-hover;
   text-decoration: underline;
+  text-shadow: 0 0 6px $bright-red, 0 0 4px $bright-red; // "Glow" efekt
 }
 
 // 4. Ukloni obrub sa slajda
-.reveal .slides {
-  border: none;
-}
+.reveal .slides { border: none; }
 
 // 5. Prilagodba blokova koda i tablica
 .reveal pre {
@@ -57,10 +66,7 @@ a:hover {
   border: 1px solid #777;
   box-shadow: none;
 }
-.reveal pre code {
-  color: #000;
-  text-shadow: none;
-}
+.reveal pre code { color: #000; text-shadow: none; }
 .reveal table th, .reveal table td {
   border: 1px solid #777;
   color: #000;
