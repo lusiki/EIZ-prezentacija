@@ -1,0 +1,317 @@
+---
+title: "Digitalni tragovi ekonomskog života"
+subtitle: ""
+author: "Luka Sikic,UNICATH"
+format: 
+  revealjs:
+    theme: [simple, gray-theme.scss] # Koristi jednostavnu temu + našu sivu prilagodbu
+    slide-number: true
+    chalkboard: true
+    scrollable: true
+lang: hr
+---
+
+## Sadržaj
+<br>
+
+1.  **Novi ekonomski krajolik:** Kako je digitalna tehnologija promijenila ekonomiju.
+<br>
+2.  **Novi empirijski alati:** Strojno učenje, NLP, CSS i Tekst kao podatak.
+<br>
+3.  **Ključne primjene:** Primjeri iz stvarnog svijeta u raznim poljima.
+<br>
+4.  **Izazovi i nove granice:** Privatnost, pristranost i što slijedi.
+<br>
+5.  **Zaključak i resursi:** Ključne poruke i daljnje čitanje.
+
+---
+
+## 1. Novi ekonomski krajolik
+
+"Digitalna ekonomija" ne odnosi se samo na nove podatke; radi se o novim ekonomskim strukturama koje *proizvode* te podatke.
+
+---
+
+### Definiranje digitalne ekonomije
+
+Ovo nije zamjena za staru teoriju, već **pomak u naglasku**.
+
+> Što se događa sa standardnim ekonomskim modelima u okruženju gdje ključni transakcijski i informacijski troškovi **padaju prema nuli**?
+
+---
+
+### 5 padajućih troškova
+
+Cijela digitalna ekonomija može se razumjeti kroz smanjenje pet ključnih troškova:
+
+. . .
+
+1.  📉 **Troškovi pretrage:** Pronalaženje informacija, cijena, proizvoda i ljudi.
+2.  📉 **Troškovi replikacije:** Kopiranje digitalnih dobara (softver, mediji) uz nulti marginalni trošak.
+3.  📉 **Troškovi transporta:** Prijenos digitalnih dobara i informacija globalno, trenutno.
+4.  📉 **Troškovi praćenja:** Bilježenje i povezivanje ponašanja korisnika kroz vrijeme.
+5.  📉 **Troškovi provjere:** Potvrđivanje reputacije i povjerenja (npr. sustavi recenzija).
+
+---
+
+### 5 stupova (Tablica 1)
+
+Ova tablica povezuje smanjenje troškova s njihovim ekonomskim implikacijama i novim digitalnim tragovima koje stvaraju.
+
+| Smanjenje troška | Ključna implikacija | Povezani modeli | Rezultirajući digitalni podaci |
+| :--- | :--- | :--- | :--- |
+| **Pretraga** | Disperzija cijena, tržišno spajanje | Teorija pretrage | Google Trends, logovi pregledavanja |
+| **Replikacija** | Ne-suparništvo, novi poslovni modeli | Teorija javnih dobara | Logovi korištenja, statistike sadržaja |
+| **Transport** | Smanjena uloga geografije | Modeli trgovine | Geolokacijski podaci, prekogranični rad |
+| **Praćenje** | Diskriminacija cijena, ciljano oglaš. | Teorija cijena | Korisnički profili, povijest klikova |
+| **Provjera** | Mehanizmi reputacije i povjerenja | Teorija igara | Korisničke ocjene, recenzije |
+
+---
+
+### Posljedica 1: Metodološki imperativ
+
+Ove nove ekonomske aktivnosti stvaraju novu *vrstu* podataka:
+
+* **"Big Data":** Masivni, visokofrekventni, visokodimenzionalni.
+* **Nestrukturirani:** Tekst, slike, mrežne veze.
+
+Tradicionalni ekonometrijski alati, stvoreni za male, strukturirane podatke niske frekvencije, **nisu dovoljni**. To prisiljava ekonomiste da usvoje alate iz računarstva.
+
+---
+
+### Posljedica 2: Uspon platformi
+
+* **Višestrane platforme:** Povezuju različite skupine (npr. kupci i prodavači; korisnici i oglašivači).
+* **Mrežni efekti:** Vrijednost platforme raste kako je više ljudi koristi.
+* **Algoritamsko kuriranje:** Na ovoj skali (npr. 1 milijarda objava dnevno na Meti), algoritmi nisu opcija. Oni *jesu* tržišni mehanizam, oblikujući što se vidi i prodaje.
+
+---
+
+## 2. Novi empirijski alati
+
+Kako su se ekonomisti prilagodili novim podacima.
+
+---
+
+### Ekonometrija vs. Strojno učenje
+
+Ova polja povijesno su imala različite ciljeve:
+
+* **📈 Tradicionalna ekonometrija**
+    * **Cilj:** Kauzalno zaključivanje ("Zašto?").
+    * **Pitanje:** Koji je uzročni učinak *X* na *Y*?
+    * **Prioritet:** Nepristrani, interpretirani koeficijenti.
+
+* **🤖 Strojno učenje (ML)**
+    * **Cilj:** Predviđanje ("Što?").
+    * **Pitanje:** Koje je najtočnije predviđanje za *Y*?
+    * **Prioritet:** Točnost predviđanja, čak i uz "crne kutije".
+
+---
+
+### Zašto je ML sada ključan
+
+ML modeli su moćni za...
+
+1.  **Obradu netradicionalnih podataka:** Izdvajanje značajki iz teksta, slika i videa.
+2.  **Hvatanje nelinearnosti:** Pronalaženje složenih obrazaca u visokodimenzionalnim podacima (npr. tisuće prediktora).
+3.  **Poboljšanje predviđanja:** Nadmašivanje tradicionalnih modela kada je točnost glavni cilj.
+
+Nova granica: **Kauzalo strojno učenje** (pionirka Susan Athey) koristi prediktivnu moć ML-a za poboljšanje kauzalnih procjena.
+
+---
+
+### Revolucija "Tekst kao podatak"
+
+Ovo je možda najznačajniji metodološki pomak. Tretira nestrukturirani tekst kao formalni izvor podataka za kvantitativnu analizu.
+
+---
+
+### Proces u 3 koraka za tekst
+
+(Temeljeno na Gentzkow, Kelly, & Taddy, 2019)
+
+1.  **Predstavljanje:** Pretvorite sirovi tekst u strukturiranu numeričku matricu.
+    * Tokenizacija, čišćenje (mala slova, uklanjanje "stop-words").
+    * Stvaranje **matrice dokument-pojam (DTM)**.
+
+2.  **Mapiranje:** Koristite visokodimenzionalne metode (ML) za mapiranje tekstualnih značajki na ishod.
+    * Npr. korištenje broja riječi u LASSO regresiji za predviđanje sentimenta.
+    * Npr. korištenje modela tema za pronalaženje skrivenih tema.
+
+3.  **Analiza:** Koristite izlaz iz koraka 2 kao novu varijablu u ekonomskoj analizi.
+    * Npr. "Predviđa li naš novi indeks sentimenta cijene dionica?"
+
+---
+
+### Ključna primjena: Analiza sentimenta
+
+Analiza sentimenta računalno kvantificira emocionalni ton teksta.
+
+To stvara moćan novi način mjerenja ekonomskih "životinjskih duhova" (animal spirits).
+
+* **Stari način: Iskazane preferencije**
+    * **Izvor:** Ankete (npr. Indeks povjerenja potrošača).
+    * **Problem:** Kasne, niske frekvencije, skupe, podložne pristranosti.
+
+* **Novi način: Otkrivene emocije**
+    * **Izvor:** Prirodno nastali tekst (vijesti, društveni mediji).
+    * **Prednost:** Stvarno vrijeme, visoka frekvencija, jeftino, nenametljivo.
+
+---
+
+### Usporedba metodologija (Tablica 2)
+
+| Metodologija | Primarni cilj | Ključne tehnike | Primjer primjene |
+| :--- | :--- | :--- | :--- |
+| **Ekonometrija** | Kauzalno zaključivanje | OLS, IV, Panel podaci | Učinak novih pravila platforme na korisnike |
+| **Strojno učenje** | Predviđanje | Slučajne šume, Neuronske mreže | Predviđanje inflacije s 1000+ prediktora |
+| **Tekst kao podatak / NLP** | Izdvajanje značajki | Modeli tema, Analiza sentimenta | Stvaranje dnevnog indeksa "Političke nesigurnosti" iz vijesti |
+
+---
+
+## 3. Ključne primjene
+
+Kako ovaj novi alatni okvir odgovara na pitanja diljem ekonomije.
+
+---
+
+### 📈 Makroekonomski "Nowcasting"
+
+* **Problem:** Službene statistike (BDP, inflacija) objavljuju se sa značajnim kašnjenjem.
+* **Rješenje:** Korištenje visokofrekventnih podataka za "nowcasting" (predviđanje sadašnjosti).
+* **Primjeri:**
+    * Korištenje Google pretraga za predviđanje zahtjeva za nezaposlenost (Varian, 2014).
+    * Korištenje teksta vijesti za izgradnju indeksa inflacijskih očekivanja u stvarnom vremenu.
+    * Ovo je "visokofrekventna revolucija" za kreatore politika (npr. tijekom pandemije).
+
+---
+
+### 🏛️ Financijska tržišta
+
+* **Osnovna ideja:** Može li javni sentiment (mjeren tekstom) predvidjeti cijene imovine?
+* **Podaci:** Članci vijesti (Tetlock, 2007), objave na Twitteru (Bollen et al., 2011).
+* **Nalazi (Dvojnost):**
+    * **Informacije:** Sentiment može sadržavati stvarne informacije i predvidjeti kratkoročne povrate.
+    * **Šum:** Društveni mediji također mogu pojačati ponašanje krda, bihevioralne pristranosti i šum, *smanjujući* tržišnu učinkovitost.
+
+---
+
+### 🖥️ Tržišta rada
+
+* **Podaci:** Online oglasi za posao (OJA) sa stranica poput Lightcasta.
+* **Metoda:** Korištenje NLP-a za masovnu analizu opisa poslova.
+* **Primjene:**
+    * **Praćenje potražnje za vještinama:** Identificiranje pomaka s rutinskih zadataka na ne-rutinske kognitivne i socijalne vještine u stvarnom vremenu.
+    * **Evaluacija politika:** Studija MMF-a otkrila je da je restriktivna monetarna politika smanjila broj oglasa za posao *unutar 15 dana*.
+* **Ograda:** OJA podaci imaju **selekcijsku pristranost** (previše predstavljaju visoko kvalificirane, "white-collar" poslove).
+
+---
+
+### 📱 Ekonomija društvenih medija
+
+Tretiranje same platforme kao ekonomskog sustava (Aridor et al., 2024):
+
+1.  **Proizvodnja:** Zašto korisnici stvaraju sadržaj? Kako funkcionira moderiranje sadržaja?
+2.  **Distribucija:** Kako društvene mreže i **algoritamsko kuriranje** šire sadržaj?
+3.  **Potrošnja:** Koji su učinci na korisnike? (npr. mentalno zdravlje, dezinformacije, politička polarizacija).
+
+---
+
+### ⚖️ Politička ekonomija
+
+Korištenje "teksta kao podatka" za mjerenje koncepata koji su nekada bili isključivo kvalitativni.
+
+* **Mjerenje medijske pristranosti:** (Gentzkow & Shapiro, 2010) Kvantificiranje ideologije novina usporedbom njihovog jezika s jezikom političara u Kongresnom zapisniku.
+* **Mjerenje polarizacije:** (Bail et al., 2018)
+    * **Hipoteza:** "Eho komore" povećavaju polarizaciju.
+    * **Eksperiment:** Platili korisnicima da prate bota koji je "retweetao" suprotstavljene stavove.
+    * **Rezultat:** **Efekt povratne vatre (backfire)**. Izloženost suprotnim stavovima *povećala* je polarizaciju, jer su korisnici koristili motivirano rezoniranje kako bi se suprotstavili porukama.
+
+---
+
+## 4. Izazovi i nove granice
+
+Ova nova paradigma je moćna, ali nije bez ozbiljnih problema.
+
+---
+
+### "Naličja" Big Data
+
+* 🔒 **Privatnost, etika i sigurnost:** Podaci se često prikupljaju netransparentno. Kako uravnotežiti istraživanje i privatnost korisnika?
+* 📊 **Pristranost i reprezentativnost:** Ovo je *najveći* statistički izazov.
+    * Digitalni podaci **nisu** slučajan uzorak.
+    * Oni odražavaju aktivnosti korisnika koji su online, na određenoj platformi, i odlučuju objavljivati.
+    * Nalazi se možda ne mogu generalizirati na cijelu populaciju.
+* 🗑️ **Kvaliteta podataka i dezinformacije:** Kako odvojiti stvarni signal od botova, spama ili koordiniranih dezinformacijskih kampanja?
+
+---
+
+### Ključne napetosti za istraživače
+
+1.  **Problem pristupa:**
+    * Najbolji podaci su vlasnički (u rukama Googlea, Mete, X-a).
+    * To stvara sukob između **reproducibilnosti** (znanstvena norma) i **komercijalnih/privatnih** interesa.
+2.  **Problem "Crne kutije":**
+    * Algoritmi platformi su poslovna tajna.
+    * Teško je znati mjerite li ponašanje korisnika ili *učinak algoritma* (npr. promjenu u rangiranju).
+3.  **Problem tržišne moći:**
+    * Sami podaci mogu biti prepreka ulasku na tržište, povećavajući koncentraciju.
+
+---
+
+### 🚀 Buduće granice istraživanja
+
+1.  **Kauzalo strojno učenje:** Nastavak spajanja prediktivne moći ML-a s inferencijalnom strogošću ekonometrije.
+2.  **Analiza multimodalnih podataka:** Kombiniranje teksta sa zvukom (ton glasa) i videom (izrazi lica) za bogatija mjerenja.
+3.  **Ekonomija generativne umjetne inteligencije:** Ogromna nova granica. Kako će LLM-ovi utjecati na produktivnost, tržišta rada i dezinformacije?
+4.  **Revizija algoritama:** Razvoj metoda za neovisno testiranje učinaka algoritama platformi na polarizaciju, natjecanje i dobrobit.
+
+---
+
+## 5. Zaključak
+
+---
+
+### Ključne poruke
+
+1.  **Nova ekonomija:** Digitalna ekonomija, definirana s 5 padajućih troškova, stvorila je novu ekonomsku strukturu.
+2.  **Novi trag podataka:** Ova nova ekonomija generira masivne, nestrukturirane "digitalne tragove" kao nusprodukt.
+3.  **Novi alati:** Ekonomisti su usvojili alate iz računarstva (ML, NLP) za analizu ovih podataka, što je dovelo do revolucije "Tekst kao podatak".
+4.  **Novi uvidi:** Ova fuzija transformira makroekonomiju, financije, tržište rada i političku ekonomiju, omogućujući analizu u stvarnom vremenu.
+5.  **Novi izazovi:** Ovaj napredak je ublažen kritičnim pitanjima privatnosti, pristranosti i algoritamske netransparentnosti.
+
+---
+
+## Dodatak: Daljnje čitanje
+
+---
+
+### 📜 Seminalni pregledni radovi
+
+* **Digitalna ekonomija (Teorija):**
+    * Goldfarb, A., & Tucker, C. (2019). "Digital Economics." *Journal of Economic Literature*.
+* **Tekst kao podatak (Metode):**
+    * Gentzkow, M., Kelly, B., & Taddy, M. (2019). "Text as Data." *Journal of Economic Literature*.
+* **Društveni mediji (Primjena):**
+    * Aridor, G., Jiménez-Durán, R., Levy, R., & Song, L. (2024). "The Economics of Social Media." *Journal of Economic Literature*.
+
+---
+
+### 💡 Ključni istraživači i institucije
+
+* **Pionirski istraživači:**
+    * Susan Athey (Stanford)
+    * Matthew Gentzkow (Stanford)
+    * Raj Chetty (Harvard)
+    * Hal Varian (Google / UC Berkeley)
+* **Ključne institucije:**
+    * Sveučilište Stanford (SIEPR)
+    * Sveučilište Harvard (Opportunity Insights)
+    * MIT
+    * National Bureau of Economic Research (NBER)
+    * Summer Institute in Computational Social Science (SICSS)
+
+---
+
+## Hvala Vam

@@ -1,0 +1,71 @@
+/*-- scss:defaults --*/
+
+// 1. Postavke fonta
+$font-family-sans-serif: "Roboto", sans-serif;
+
+// 2. Postavke boja
+$body-bg: #aaaaaa;
+$body-color: #000;
+$link-color: #000;
+$link-color-hover: #000;
+$selection-bg: #444;
+$selection-color: #fff;
+
+// 3. Prilagodba varijabli za Reveal.js
+$r-main-font: $font-family-sans-serif;
+$r-heading-font: $font-family-sans-serif;
+$r-heading-font-weight: 700;
+$r-main-font-size: 38px;
+$r-heading-color: #000;
+$r-main-color: #000;
+$r-link-color: #000;
+$r-link-color-hover: #000;
+$r-background-color: #aaaaaa;
+
+/*-- scss:rules --*/
+
+// 1. Uvezi Roboto font (mora biti online)
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+// 2. Force the font on the main elements
+// Korištenje !important je "nuklearna" opcija da budemo sigurni
+body, .reveal {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 700; // Osiguraj da su naslovi podebljani
+}
+
+// 3. Pravila za linkove
+a {
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+// 4. Ukloni obrub sa slajda
+.reveal .slides {
+  border: none;
+}
+
+// 5. Prilagodba blokova koda i tablica
+.reveal pre {
+  background-color: #c0c0c0;
+  border: 1px solid #777;
+  box-shadow: none;
+}
+.reveal pre code {
+  color: #000;
+  text-shadow: none;
+}
+.reveal table th, .reveal table td {
+  border: 1px solid #777;
+  color: #000;
+}
+.reveal table th {
+  background-color: #c0c0c0;
+  color: #000;
+}
