@@ -14,21 +14,21 @@ lang: hr
 ## Sadržaj
 <br>
 
-1.  **Novi ekonomski krajolik:** Kako je digitalna tehnologija promijenila ekonomiju.
+1.  **Novi ekonomski krajolik:** Kako je digitalna tehnologija promijenila ekonomiju?
 <br><br>
 2.  **Novi ekonomski alati:** Strojno učenje, NLP i CSS.
 <br><br>
 3.  **Primjene:** Primjeri iz stvarnog svijeta u raznim poljima.
 <br><br>
-4.  **Izazovi i nove istraživačke granice:** Privatnost, pristranost i što slijedi.
+4.  **Izazovi i nove istraživačke granice:** Privatnost, pristranost i AI.
 <br><br>
-5.  **Zaključak i resursi:** Poruke i daljnje čitanje.
+5.  **Zaključak i resursi:** Poruke i prijedlozi za čitanje.
 
 ---
 
 ## 1. Novi ekonomski krajolik
 <br>
-[Digitalna ekonomija](https://mitsloan.mit.edu/shared/ods/documents?PublicationDocumentID=5901) ne odnosi se samo na nove podatke. Radi se o novim ekonomskim strukturama koje proizvode te podatke.
+[Digitalna ekonomija](https://mitsloan.mit.edu/shared/ods/documents?PublicationDocumentID=5901) je puno više od nematerijalnih proizvoda. Radi se o novim ekonomskim strukturama koje proizvode te podatke.
 <br><br>
 
 Pri tome ne govorimo o zamjeni za staru teoriju, već **pomaku u naglasku**.
@@ -55,7 +55,7 @@ Pri tome ne govorimo o zamjeni za staru teoriju, već **pomaku u naglasku**.
 | **Pretraga** | Disperzija cijena, tržišno spajanje | Teorija pretrage | Google Trends, logovi pregledavanja |
 | **Replikacija** | Ne-suparništvo, novi poslovni modeli | Teorija javnih dobara | Logovi korištenja, statistike sadržaja |
 | **Transport** | Smanjena uloga geografije | Modeli trgovine | Geolokacijski podaci, prekogranični rad |
-| **Praćenje** | Diskriminacija cijena, ciljano oglaš. | Teorija cijena | Korisnički profili, povijest klikova |
+| **Praćenje** | Diskriminacija cijena, ciljano oglašavanje. | Teorija cijena | Korisnički profili, povijest klikova |
 | **Provjera** | Mehanizmi reputacije i povjerenja | Teorija igara | Korisničke ocjene, recenzije |
 
 
@@ -272,9 +272,6 @@ Ova nova paradigma je moćna, ali nije bez  problema.
 4.  **Novi uvidi:** Ova fuzija transformira makroekonomiju, financije, tržište rada i političku ekonomiju, omogućujući analizu u stvarnom vremenu.
 5.  **Novi izazovi:** Ovaj napredak je ublažen kritičnim pitanjima privatnosti, pristranosti i algoritamske netransparentnosti.
 
----
-
-## Dodatak:
 
 ---
 
