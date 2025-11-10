@@ -14,13 +14,13 @@ lang: hr
 ## Sadržaj
 <br>
 
-1.  **Novi ekonomski krajolik:** Kako je digitalna tehnologija promijenila ekonomiju.
+1.  **Novi ekonomski krajolik:** Kako je digitalna tehnologija promijenila ekonomiju?
 <br><br>
-2.  **Novi ekonomski alati:** Strojno učenje, NLP i CSS.
+2.  **Novi ekonomski alati:** ML, NLP i CSS.
 <br><br>
 3.  **Primjene:** Primjeri iz stvarnog svijeta u raznim poljima.
 <br><br>
-4.  **Izazovi i nove istraživačke granice:** Privatnost, pristranost i što slijedi.
+4.  **Izazovi i nove istraživačke granice:** Privatnost, pristranost i što slijedi...
 <br><br>
 5.  **Zaključak i resursi:** Poruke i daljnje čitanje.
 
@@ -182,6 +182,20 @@ Ovo je možda najznačajniji metodološki pomak. Tretira nestrukturirani tekst k
 ## 3. Primjene
 
 
+---
+
+
+## Analiza teksta
+
+<br><br>
+
+- [Projekt analize dezinfomacija ](https://www.unicath.hr/index.php/projekti/digitheal/kat) 
+
+<br><br>
+
+- [Aplikacija]([Projekt analize dezinfomacija ](https://www.unicath.hr/index.php/projekti/digitheal/kat) ) 
+
+
 
 ---
 
@@ -190,6 +204,11 @@ Ovo je možda najznačajniji metodološki pomak. Tretira nestrukturirani tekst k
 
 ![](epu.png)
 
+
+
+
+
+> Izračunato prema [Baker et al., 2016](https://www.nber.org/system/files/working_papers/w22740/w22740.pdf)
 
 ---
 
@@ -272,9 +291,6 @@ Ova nova paradigma je moćna, ali nije bez  problema.
 4.  **Novi uvidi:** Ova fuzija transformira makroekonomiju, financije, tržište rada i političku ekonomiju, omogućujući analizu u stvarnom vremenu.
 5.  **Novi izazovi:** Ovaj napredak je ublažen kritičnim pitanjima privatnosti, pristranosti i algoritamske netransparentnosti.
 
----
-
-## Dodatak:
 
 ---
 
