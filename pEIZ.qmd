@@ -239,6 +239,21 @@ Ovo je možda najznačajniji metodološki pomak. Tretira nestrukturirani tekst k
 ![](mediji.png)
 
 
+
+---
+
+##  Otvoreni pristup i reproducibilnost
+
+
+<br><br>
+
+- Otvoreni pristup na projektu [analize katoličke tematike](https://lusiki.github.io/DigiKat/)
+
+
+<br><br>
+
+
+- Repoducibilnost na primjeru  [znastvenog rada u objavi](https://github.com/lusiki/The-Breakdown-of-the-Classic-Portfolio-Hedge-A-Comprehensive-Markov-Switching-Analysis)
 ---
 
 ## 4. Izazovi i nove granice
@@ -280,7 +295,6 @@ Ova nova paradigma je moćna, ali nije bez  problema.
 ---
 
 ## 5. Zaključak
-
 
 
 
