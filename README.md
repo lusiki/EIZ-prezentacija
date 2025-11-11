@@ -4,15 +4,15 @@
 <!-- Preporučena dimenzija: 1280x640px -->
 <!-- ======================================================= -->
 <p align="center">
-  <img src="digilife.jng" width="800" alt="Naslovna slika prezentacije o digitalnim tragovima u ekonomiji">
+  <img src="digilife.jpg" width="800" alt="Naslovna slika prezentacije o digitalnim tragovima u ekonomiji">
 </p>
 
-# 📈 Kako digitalni (medijski) podaci mijenjaju ekonomske analize
+# Kako digitalni (medijski) podaci mijenjaju ekonomske analize
 
 > Vodič kroz najvažnije (nove) metode za analizu digitalnih tragova ekonomskog života.
 
 <p align="center">
-  <em>Prezentacija održana na Ekonomskom institutu, Zagreb (EIZ).</em>
+  <em>Prezentacija na Ekonomskom institutu, Zagreb (EIZ).</em>
 </p>
 
 ---
@@ -32,12 +32,12 @@ Ova prezentacija istražuje **novi set analitičkih alata**, posebice strojno u�
 
 ---
 
-## 📊 Pogledajte Prezentaciju Uživo
+## 📊 Pogledajte prezentaciju 
 
-Spremni ste zaroniti u svijet podataka? Pristupite interaktivnoj prezentaciji i istražite primjere koda i vizualizacije.
+Spremni ste zaroniti u svijet podataka? 
 
 <p align="center">
-  <a href="LINK-DO-VAŠE-PREZENTACIJE" style="text-decoration:none;">
+  <a href="https://raw.githack.com/lusiki/EIZ-prezentacija/master/pEIZ.html#/title-slide" style="text-decoration:none;">
     <img src="https://img.shields.io/badge/POGLEDAJ-PREZENTACIJU-A93226?style=for-the-badge&logo=quarto&logoColor=white" alt="Link na prezentaciju">
   </a>
 </p>
