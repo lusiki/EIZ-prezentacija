@@ -1,10 +1,53 @@
-# EIZ-prezentacija
+    
+<!-- ======================================================= -->
+<!-- SLIKA PROJEKTA - ZAMIJENITE `assets/presentation-cover.png` S PUTANJOM DO VAŠE SLIKE -->
+<!-- Preporučena dimenzija: 1280x640px -->
+<!-- ======================================================= -->
+<p align="center">
+  <img src="digilife.jng" width="800" alt="Naslovna slika prezentacije o digitalnim tragovima u ekonomiji">
+</p>
 
+# 📈 Kako digitalni (medijski) podaci mijenjaju ekonomske analize
 
-## Kako digitalni (medijski) podaci mijenjaju ekonomske analize
+> Vodič kroz najvažnije (nove) metode za analizu digitalnih tragova ekonomskog života.
 
+<p align="center">
+  <em>Prezentacija održana na Ekonomskom institutu, Zagreb (EIZ).</em>
+</p>
 
-Digitalna ekonomija, definirana nižim troškovima pretraživanja, repliciranja i praćenja, umnogome je preoblikovala ekonomsku aktivnost. Ovo novo okruženje generira  digitalne tragove, od objava na društvenim mrežama do upita na internetskim tražilicama, čime se stvara podatkovno bogato okruženje koje tradicionalne ekonomske metode ne mogu u potpunosti analizirati. Zbog toga je potreban novi set analitičkih  alata, posebice strojno učenje, računalna obrada podataka  i analiza teksta, kako se izdvojili signali iz  nestrukturiranih digitalnih  informacija. Ove tehnike i alati omogućuju uvide u stvarnom vremenu, bolje predviđanje makroekonomskih trendova, mjerenje raspoloženja na financijskom tržištu, praćenje komunikacije središnjih banaka, analizu medijskog tržišta i dr . U zaključku se  raspravlja i o  ključnim izazovima koje ova paradigma postavlja, uključujući etičke dileme privatnosti, algoritamsku pristranost i nereprezentativnu prirodu digitalnih podataka.
+---
 
+## 💡 O čemu se radi?
 
-[**➡️ Pogledajte objavljenu prezentaciju uživo**](https://raw.githack.com/lusiki/EIZ-prezentacija/master/pEIZ.html#/title-slide)
+Digitalna ekonomija, definirana nižim troškovima pretraživanja, repliciranja i praćenja, iz temelja je preoblikovala ekonomsku aktivnost. Ovo novo okruženje generira **digitalne tragove** — od objava na društvenim mrežama do upita na internetskim tražilicama — stvarajući podatkovno bogato okruženje koje tradicionalne ekonomske metode ne mogu u potpunosti obuhvatiti.
+
+Ova prezentacija istražuje **novi set analitičkih alata**, posebice strojno učenje i analizu teksta, koji nam omogućuju da iz mora nestrukturiranih digitalnih informacija izdvojimo vrijedne signale.
+
+## 🚀 Ključne teme koje pokrivamo
+
+*   **🌐 Digitalni tragovi:** Kako signale izvući iz buke podataka generiranih online.
+*   **🤖 Novi alati:** Uvod u strojno učenje, NLP i analizu teksta za ekonomiste.
+*   **📊 Praktične primjene:** Od predviđanja BDP-a u stvarnom vremenu do analize sentimenta na financijskim tržištima i komunikacije središnjih banaka.
+*   **⚖️ Ključni izazovi:** Rasprava o etičkim dilemama, privatnosti, algoritamskoj pristranosti i nereprezentativnosti digitalnih podataka.
+
+---
+
+## 📊 Pogledajte Prezentaciju Uživo
+
+Spremni ste zaroniti u svijet podataka? Pristupite interaktivnoj prezentaciji i istražite primjere koda i vizualizacije.
+
+<p align="center">
+  <a href="LINK-DO-VAŠE-PREZENTACIJE" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/POGLEDAJ-PREZENTACIJU-A93226?style=for-the-badge&logo=quarto&logoColor=white" alt="Link na prezentaciju">
+  </a>
+</p>
+
+<br>
+
+---
+
+<p align="center">
+  <small>Izrađeno pomoću <strong>Quarto</strong> & <strong>reveal.js</strong></small>
+</p>
+
+  
