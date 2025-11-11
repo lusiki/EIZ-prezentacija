@@ -21,14 +21,13 @@
 ---
 
 ## 💡 O čemu se radi?
-Digitalna ekonomija, definirana nižim troškovima pretraživanja, repliciranja i praćenja, iz temelja je preoblikovala ekonomsku aktivnost...
-<!-- ... ostatak vašeg README-ja ostaje isti ... -->
+Digitalna ekonomija, definirana nižim troškovima pretraživanja, repliciranja i praćenja, iz temelja je preoblikovala ekonomsku aktivnost. Ovo novo okruženje generira digitalne tragove — od objava na društvenim mrežama do upita na internetskim tražilicama — stvarajući podatkovno bogato okruženje koje tradicionalne ekonomske metode ne mogu u potpunosti obuhvatiti.
 
 ## 🚀 Ključne teme koje pokrivamo
-*   **Digitalni tragovi:** ...
-*   **Novi alati:** ...
-*   **Praktične primjene:** ...
-*   **Ključni izazovi:** ...
+*   **Digitalni tragovi:** Kako signale izvući iz buke podataka generiranih online.
+*   **Novi alati:** Uvod u strojno učenje, NLP i analizu teksta za ekonomiste.
+*   **Praktične primjene:** Od predviđanja BDP-a u stvarnom vremenu do analize sentimenta na financijskim tržištima i komunikacije središnjih banaka.
+*   **Ključni izazovi:** Rasprava o etičkim dilemama, privatnosti, algoritamskoj pristranosti i nereprezentativnosti digitalnih podataka.
 
 ---
 
