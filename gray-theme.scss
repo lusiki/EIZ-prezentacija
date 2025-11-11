@@ -42,7 +42,7 @@ $r-heading-text-transform: none; // Prirodan izgled naslova bez velikih slova
 // 1. UVEZI GOOGLE FONTOVE
 // -----------------------------------------------
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@400;700&family=JetBrains+Mono&display=swap');
-
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
 // 2. STIL LINKOVA
 // Moderni stil iz "Minimalist" teme
 // -----------------------------------------------
@@ -71,3 +71,4 @@ a:hover {
   font-family: $font-family-monospace;
   color: #333;
 }
+

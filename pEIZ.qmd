@@ -1,15 +1,20 @@
 ---
 title: "Digitalni tragovi ekonomskog života"
 subtitle: "Vodič kroz najvažnije (nove) metode ekonomske analize"
-author: "[Luka Sikic](https://www.unicath.hr/odjeli-i-fakultet/nastavnici/luka-sikic), UNICATH"
+author: "Luka Sikic,[UNICATH](https://www.unicath.hr/odjeli-i-fakultet/nastavnici/luka-sikic)"
 format: 
   revealjs:
-    theme: [simple, gray-theme.scss] # Koristi jednostavnu temu + našu sivu prilagodbu
+    theme: [simple, gray-theme.scss]
     slide-number: true
     chalkboard: true
     scrollable: true
+    include-in-header:
+      - text: '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">'
 lang: hr
 ---
+
+
+
 
 ## Sadržaj
 <br>
@@ -76,20 +81,37 @@ Ove nove ekonomske aktivnosti stvaraju novu vrstu [podataka](https://pubs.aeaweb
 
 ---
 
-### Posljedica 2: Uspon platformi
 
-<br>
+### Digitalni medijski prostor RH (pregled podataka)
 
-* **Višestrane platforme:** Povezuju različite skupine (npr. kupci i prodavači; korisnici i oglašivači).
+::: {.panel-tabset}
 
-<br>
+### Koncept
 
-* **Mrežni efekti:** Vrijednost platforme raste kako je više ljudi koristi.
+Ovaj skup podataka obuhvaća cjelokupni digitalni medijski prostor RH.
 
-<br>
+*   **Vremenski okvir:** Lipanj 2021. – Lipanj 2024.
+*   **Ukupan broj objava:** ~21 milijun
+*   **Pokrivene platforme:** Web portali, Facebook, Instagram, X, YouTube, Reddit, forumi i komentari.
+*   **Broj značajki:** 49 varijabli po svakoj objavi (autor, sentiment, doseg, itd.).
 
-* **Algoritamsko kuriranje:** Na ovoj skali (npr. 1 milijarda objava dnevno na Meti), algoritmi nisu opcija. Oni *jesu* tržišni mehanizam.
----
+### Volumen objava
+
+![Broj objava po tipu platforme. Web portali i dalje dominiraju volumenom.](mp1.png){fig-align="center"}
+
+### Angažman publike
+
+![Ukupan broj interakcija (lajkovi, komentari, dijeljenja) po platformama.](mp2.png){fig-align="center"}
+
+### Efikasnost I
+
+![Prosječan broj interakcija po objavi, prikazuje gdje je angažman najkoncentriraniji.](mp3.png){fig-align="center"}
+
+### Efikasnost II
+
+![Stopa angažmana (interakcije podijeljene s dosegom), mjera stvarne učinkovitosti sadržaja.](mp4.png){fig-align="center"}
+
+:::
 
 ## 2. Novi ekonomski alati
 
@@ -111,6 +133,42 @@ Ove nove ekonomske aktivnosti stvaraju novu vrstu [podataka](https://pubs.aeaweb
 
 
 ---
+
+### Posljedica 2: Uspon platformi
+
+<br>
+
+* **Višestrane platforme:** Povezuju različite skupine (npr. kupci i prodavači; korisnici i oglašivači).
+
+<br>
+
+* **Mrežni efekti:** Vrijednost platforme raste kako je više ljudi koristi.
+
+<br>
+
+* **Algoritamsko kuriranje:** Na ovoj skali (npr. 1 milijarda objava dnevno na Meti), algoritmi nisu opcija. Oni *jesu* tržišni mehanizam.
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
 
 ## Ekonometrija vs. Strojno učenje
 
@@ -367,7 +425,7 @@ Projekt HKS-a.
 
 **Primjer:** Projekt DigiKat
 
-*   [Interaktivna stranica za analizu katoličke tematike.](https://lusiki.github.io/DigiKat/)
+*   [Stranica projekta za analizu katoličke tematike.](https://lusiki.github.io/DigiKat/)
 :::
 
 ::: {.column width="50%"}
@@ -378,7 +436,7 @@ Projekt HKS-a.
 **Primjer:** Znanstveni rad
 
 
-*   [Potpuni kod za analizu sloma klasičnog portfelja](https://github.com/lusiki/The-Breakdown-of-the-Classic-Portfolio-Hedge-A-Comprehensive-Markov-Switching-Analysis)
+*   [Kod za analizu sloma klasičnog portfelja](https://github.com/lusiki/The-Breakdown-of-the-Classic-Portfolio-Hedge-A-Comprehensive-Markov-Switching-Analysis)
 :::
 
 :::
@@ -386,39 +444,55 @@ Projekt HKS-a.
 
 ## 4. Izazovi i nove granice
 
-Ova nova paradigma je moćna, ali nije bez  problema.
 
-*  **Privatnost, etika i sigurnost:** Podaci se često prikupljaju netransparentno. Kako uravnotežiti istraživanje i privatnost korisnika?
+::: {.fragment}
+::: {.callout-warning appearance="simple"}
+### 1. Glavni izazovi
+Svi podaci imaju "ožiljke" svog nastanka. Naši najveći su:
 
-*  **Pristranost i reprezentativnost:** Ovo je *najveći* statistički izazov.
+*   ️ **Privatnost i etika**
 
-    * Digitalni podaci **nisu** slučajan uzorak.
-    * Oni odražavaju aktivnosti korisnika koji su online, na određenoj platformi, i odlučuju objavljivati.
-    * Nalazi se možda ne mogu generalizirati na cijelu populaciju.
-   
-* ️ **Kvaliteta podataka i dezinformacije:** Kako odvojiti stvarni signal od botova, spama ili koordiniranih dezinformacijskih kampanja?
+*    **Pristranost i (ne)reprezentativnost**
 
----
+*    **Kvaliteta i dezinformacije**
+:::
+:::
 
-##  Napetosti za istraživače
+::: {.fragment}
+::: {.callout-caution appearance="simple"}
+### 2. Posljedice za istraživače
+Ovi izazovi stvaraju tenzije između znanosti i prakse:
 
-1.  **Problem pristupa:**
-    * Najbolji podaci su vlasnički (u rukama Googlea, Mete, X-a).
-    * To stvara sukob između **reproducibilnosti** (znanstvena norma) i **komercijalnih/privatnih** interesa.
-2.  **Problem "Crne kutije":**
-    * Algoritmi platformi su poslovna tajna.
-    * Teško je znati mjerite li ponašanje korisnika ili *učinak algoritma* (npr. promjenu u rangiranju).
-3.  **Problem tržišne moći:**
-    * Sami podaci mogu biti prepreka ulasku na tržište, povećavajući koncentraciju.
+*    **Problem pristupa:** Najbolji podaci su zaključani.
 
----
+*    **Problem "crne kutije":** Algoritmi su nepoznanica.
 
-###  Buduće granice istraživanja
+*    **Problem tržišne moći:** Podaci stvaraju monopole.
 
-1.  **Kauzalo strojno učenje:** Nastavak spajanja prediktivne moći ML-a s inferencijalnom strogošću ekonometrije.
-2.  **Analiza multimodalnih podataka:** Kombiniranje teksta sa zvukom (ton glasa) i videom (izrazi lica) za bogatija mjerenja.
-3.  **Ekonomija generativne umjetne inteligencije:** Ogromna nova granica. Kako će LLM-ovi utjecati na produktivnost, tržišta rada i dezinformacije?
-4.  **Revizija algoritama:** Razvoj metoda za neovisno testiranje učinaka algoritama platformi na polarizaciju, natjecanje i dobrobit.
+:::
+:::
+
+::: {.fragment}
+::: {.callout-tip appearance="simple"}
+### 3. Buduće granice
+Put naprijed leži u spajanju disciplina i novih metoda:
+
+*    **Kauzalo strojno učenje**
+
+*    **Multimodalni podaci** (tekst + video + zvuk)
+
+*    **Ekonomija Generativne AI**
+
+*    **Revizija algoritama**
+:::
+:::
+
+
+
+
+
+
+
 
 ---
 
@@ -428,27 +502,76 @@ Ova nova paradigma je moćna, ali nije bez  problema.
 
 ---
 
-### Ključne poruke
+### Take home...
 
 1.  **Nova ekonomija:** Digitalna ekonomija, definirana s 5 padajućih troškova, stvorila je novu ekonomsku strukturu.
 2.  **Novi trag podataka:** Ova nova ekonomija generira masivne, nestrukturirane digitalne tragove kao nusprodukt.
 3.  **Novi alati:** Ekonomisti su usvojili alate iz računarstva (ML, NLP,CSS) za analizu ovih podataka.
-4.  **Novi uvidi:** Ova fuzija transformira makroekonomiju, financije, tržište rada i političku ekonomiju, omogućujući analizu u stvarnom vremenu.
-5.  **Novi izazovi:** Ovaj napredak je ublažen kritičnim pitanjima privatnosti, pristranosti i algoritamske netransparentnosti.
+4.  **Novi uvidi:** Ova fuzija transformira makroekonomiju, financije, tržište rada i političku ekonomiju...
+5.  **Novi izazovi:** Ovaj napredak je ublažen pitanjima privatnosti, pristranosti i algoritamske netransparentnosti.
 
 
 ---
 
-### Preporučeni radovi
+##  Tri ključna rada
 
-* **Digitalna ekonomija (Teorija):**
-    * Goldfarb, A., & Tucker, C. (2019). "Digital Economics." *Journal of Economic Literature*.
-* **Tekst kao podatak (Metode):**
-    * Gentzkow, M., Kelly, B., & Taddy, M. (2019). "Text as Data." *Journal of Economic Literature*.
-* **Društveni mediji (Primjena):**
-    * Aridor, G., Jiménez-Durán, R., Levy, R., & Song, L. (2024). "The Economics of Social Media." *Journal of Economic Literature*.
+<br>
 
+::: {.columns}
+
+::: {.column width="33%"}
+####  Digitalna ekonomija
+
+> *[Goldfarb & Tucker (2019)](https://www.aeaweb.org/articles?id=10.1257/jel.20171452)*
+
+**Zašto pročitati:** Definitivni teorijski pregled koji postavlja temelje za razumijevanje digitalnih tržišta.
+:::
+
+::: {.column width="33%"}
+####  Tekst kao podatak
+
+> *[Gentzkow, Kelly & Taddy (2019)](https://web.stanford.edu/~gentzkow/research/text-as-data.pdf)*
+
+**Zašto pročitati:** Vrhunski vodič kroz metode koje pretvaraju nestrukturirani tekst u kvantitativne uvide.
+:::
+
+::: {.column width="33%"}
+#### Ekonomija društvenih medija
+
+> *[Aridor et al. (2024)](https://www.aeaweb.org/articles?id=10.1257/jel.20241743)*
+
+**Zašto pročitati:** Najnoviji pregled koji objašnjava kako platforme poput Facebooka i X-a mijenjaju ekonomiju.
+:::
+
+:::
 
 ---
 
-## Hvala Vam
+## Resursi i kontakti
+
+
+
+<br><br>
+
+* Svi materijali, kod i prezentacija dostupni su na [GitHubu](assets/qr-github.png)
+
+<br>
+
+* Više projekata na mojoj [web](assets/qr-website.png) stranici
+
+<br>
+
+* Povežimo se na [LinkedInu ](assets/qr-linkedin.png){width="150"}
+
+
+
+
+## Hvala! 
+
+
+
+
+
+
+
+

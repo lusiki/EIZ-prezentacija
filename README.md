@@ -12,7 +12,7 @@
 > Vodič kroz najvažnije (nove) metode za analizu digitalnih tragova ekonomskog života.
 
 <p align="center">
-  <em>Prezentacija na Ekonomskom institutu, Zagreb (EIZ).</em>
+  <em>[Prezentacija na Ekonomskom institutu, Zagreb (EIZ)](https://eizg.hr/vijesti/dogadjanja/poziv-na-seminar-eiz-a-kako-digitalni-medijski-podaci-mijenjaju-ekonomske-analize/7391).</em>
 </p>
 
 ---
@@ -25,10 +25,10 @@ Ova prezentacija istražuje **novi set analitičkih alata**, posebice strojno u�
 
 ## 🚀 Ključne teme koje pokrivamo
 
-*   **🌐 Digitalni tragovi:** Kako signale izvući iz buke podataka generiranih online.
-*   **🤖 Novi alati:** Uvod u strojno učenje, NLP i analizu teksta za ekonomiste.
-*   **📊 Praktične primjene:** Od predviđanja BDP-a u stvarnom vremenu do analize sentimenta na financijskim tržištima i komunikacije središnjih banaka.
-*   **⚖️ Ključni izazovi:** Rasprava o etičkim dilemama, privatnosti, algoritamskoj pristranosti i nereprezentativnosti digitalnih podataka.
+*   **Digitalni tragovi:** Kako signale izvući iz buke podataka generiranih online.
+*   **Novi alati:** Uvod u strojno učenje, NLP i analizu teksta za ekonomiste.
+*   **Praktične primjene:** Od predviđanja BDP-a u stvarnom vremenu do analize sentimenta na financijskim tržištima i komunikacije središnjih banaka.
+*   **Ključni izazovi:** Rasprava o etičkim dilemama, privatnosti, algoritamskoj pristranosti i nereprezentativnosti digitalnih podataka.
 
 ---
 
