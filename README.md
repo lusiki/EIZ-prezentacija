@@ -12,7 +12,7 @@
 > Vodič kroz najvažnije (nove) metode za analizu digitalnih tragova ekonomskog života.
 
 <p align="center">
-  <em>[Prezentacija na Ekonomskom institutu, Zagreb (EIZ)](https://eizg.hr/vijesti/dogadjanja/poziv-na-seminar-eiz-a-kako-digitalni-medijski-podaci-mijenjaju-ekonomske-analize/7391).</em>
+  <em>[Prezentacija na Ekonomskom institutu, Zagreb](https://eizg.hr/vijesti/dogadjanja/poziv-na-seminar-eiz-a-kako-digitalni-medijski-podaci-mijenjaju-ekonomske-analize/7391).</em>
 </p>
 
 ---
