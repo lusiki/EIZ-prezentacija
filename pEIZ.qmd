@@ -1,7 +1,7 @@
 ---
 title: "Digitalni tragovi ekonomskog života"
 subtitle: "Vodič kroz najvažnije (nove) metode ekonomske analize"
-author: "Luka Sikic, UNICATH"
+author: "[Luka Sikic](https://www.unicath.hr/odjeli-i-fakultet/nastavnici/luka-sikic), UNICATH"
 format: 
   revealjs:
     theme: [simple, gray-theme.scss] # Koristi jednostavnu temu + našu sivu prilagodbu
@@ -18,7 +18,7 @@ lang: hr
 <br><br>
 2.  **Novi ekonomski alati:** ML, NLP i CSS.
 <br><br>
-3.  **Primjene:** Primjeri iz stvarnog svijeta u raznim poljima.
+3.  **Primjene:** Primjeri u raznim poljima.
 <br><br>
 4.  **Izazovi i nove istraživačke granice:** Privatnost, pristranost i što slijedi...
 <br><br>
@@ -50,13 +50,13 @@ Pri tome ne govorimo o zamjeni za staru teoriju, već **pomaku u naglasku**.
 ---
 
 
-| Smanjenje troška | Ključna implikacija | Povezani modeli | Rezultirajući digitalni podaci |
+| Smanjenje troška | Implikacija | Primjer | Rezultirajući digitalni podaci |
 | :--- | :--- | :--- | :--- |
-| **Pretraga** | Disperzija cijena, tržišno spajanje | Teorija pretrage | Google Trends, logovi pregledavanja |
-| **Replikacija** | Ne-suparništvo, novi poslovni modeli | Teorija javnih dobara | Logovi korištenja, statistike sadržaja |
-| **Transport** | Smanjena uloga geografije | Modeli trgovine | Geolokacijski podaci, prekogranični rad |
-| **Praćenje** | Diskriminacija cijena, ciljano oglaš. | Teorija cijena | Korisnički profili, povijest klikova |
-| **Provjera** | Mehanizmi reputacije i povjerenja | Teorija igara | Korisničke ocjene, recenzije |
+| **Pretraga** | Disperzija cijena, tržišno spajanje | Kada na Googleu tražite "najbolje tenisice", ne dobivate samo odgovor. Vi stvarate podatak. Google bilježi vaš upit, koje ste linkove pogledali, a koje ignorirali. Agregacija milijuna takvih "tragova" postaje moćan podatak za predviđanje trendova. | Dnevnici pretraživanja (Search logs), Google Trends, Podaci o putanji klika (Click-path data) |
+| **Replikacija** | Nesuparništvo, novi poslovni modeli | Kada preslušate pjesmu na Spotifyju, replikacija te pjesme košta 0 kn. Ali Spotify bilježi taj čin. Jeste li ju preskočili nakon 10 sekundi? Jeste li ju dodali na playlistu? Ti "logovi korištenja" govore o vrijednosti tog dobra i temelj su za preporuke. | Podaci o streamingu, Statistike pregleda (YouTube views), Vrijeme zadržavanja (Watch time |
+| **Transport** | Smanjena uloga geografije | Vaš pametni telefon stalno prijavljuje svoju lokaciju. Uber koristi taj podatak da vas spoji s najbližim vozačem. Platforma poput Upworka koristi vašu IP adresu da potvrdi da ste u jednoj zemlji, a klijent u drugoj – dokazujući rad na daljinu. |GPS koordinate, IP adrese (za mapiranje lokacije), Podaci o prekograničnim transakcijama |GPS koordinate, IP adrese (za mapiranje lokacije), Podaci o prekograničnim transakcijama.|
+| **Praćenje** | Diskriminacija cijena, ciljano oglaš. | Gledali ste cipele na jednoj stranici, a oglas za njih vas prati po cijelom internetu. To je "pixel" ili kolačić za praćenje. Stvorio je korisnički profil o vama ("zainteresiran za cipele, br. 43") i sada tvrtke licitiraju kako bi vam prikazale oglas. | Kolačići za praćenje (Tracking cookies), ID uređaja, Povijest kupovine i povijest pregledavanja |
+| **Provjera** | Mehanizmi reputacije i povjerenja |Kako vjerovati strancu da ćete ući u njegov auto (Uber) ili spavati u njegovom stanu (Airbnb)? Ne vjerujete osobi, vjerujete sustavu. Ocjena od 5 zvjezdica koju je ostavio prethodni korisnik je podatak koji stvara povjerenje ni iz čega. | Sustavi ocjenjivanja (npr. 4.8 zvjezdica), Tekstualne recenzije korisnika, Digitalne značke ("Superhost", "Verified") |
 
 
 
@@ -78,14 +78,15 @@ Ove nove ekonomske aktivnosti stvaraju novu vrstu [podataka](https://pubs.aeaweb
 
 ### Posljedica 2: Uspon platformi
 
+<br>
 
 * **Višestrane platforme:** Povezuju različite skupine (npr. kupci i prodavači; korisnici i oglašivači).
 
-
+<br>
 
 * **Mrežni efekti:** Vrijednost platforme raste kako je više ljudi koristi.
 
-
+<br>
 
 * **Algoritamsko kuriranje:** Na ovoj skali (npr. 1 milijarda objava dnevno na Meti), algoritmi nisu opcija. Oni *jesu* tržišni mehanizam.
 ---
@@ -111,27 +112,48 @@ Ove nove ekonomske aktivnosti stvaraju novu vrstu [podataka](https://pubs.aeaweb
 
 ---
 
-### Ekonometrija i ML
+## Ekonometrija vs. Strojno učenje
 
+<br>
 
-* **Tradicionalna ekonometrija**
-    * **Cilj:** Kauzalno zaključivanje ("Zašto?").
-    * **Pitanje:** Koji je uzročni učinak *X* na *Y*?
-    * **Prioritet:** Nepristrani, interpretirani koeficijenti.
+::: {.columns}
 
-* **Strojno učenje (ML)**
-    * **Cilj:** Predviđanje ("Što?").
-    * **Pitanje:** Koje je najtočnije predviđanje za *Y*?
-    * **Prioritet:** Točnost predviđanja, čak i uz "crne kutije".
+::: {.column width="50%"}
+###  
+
+*   Kauzalno zaključivanje
+    *   *Pitanje: Zašto?*
+*    Koji je uzročni učinak *X* na *Y*?
+*    Nepristrani, interpretirani koeficijenti.
+:::
+
+::: {.column width="50%"}
+###  
+
+*   Predviđanje
+    *   *Pitanje: Što?*
+*   Koje je najtočnije predviđanje za *Y*?
+*   Točnost predviđanja (čak i uz "crne kutije").
+:::
+
+:::
 
 ---
 
-### Zašto je ML sada nezaobilazan?
+### [Zašto je ML sada nezaobilazan?](https://arxiv.org/pdf/2304.00086)
 
 ML modeli su prikladniji za...
 
+<br>
+
 1.  **Obradu netradicionalnih podataka:** Izdvajanje značajki iz teksta, slika i videa.
+
+<br>
+
 2.  **Uvažavanje nelinearnosti:** Pronalaženje složenih obrazaca u visokodimenzionalnim podacima (npr. tisuće prediktora).
+
+<br>
+
 3.  **Poboljšanje predviđanja:** Nadmašivanje tradicionalnih modela kada je točnost glavni cilj.
 <br>
 
@@ -139,41 +161,95 @@ ML modeli su prikladniji za...
 ---
 
 ### Revolucija [tekstualnih podataka](https://web.stanford.edu/~gentzkow/research/text-as-data.pdf) 
+
 <br><br>
-Ovo je možda najznačajniji metodološki pomak. Tretira nestrukturirani tekst kao formalni izvor podataka za kvantitativnu analizu.
+
+> Ovo je možda najznačajniji metodološki pomak. Tretira nestrukturirani tekst kao formalni izvor podataka za kvantitativnu analizu.
 
 ---
 
-### Procesuiranje teksta u 3 koraka
+## Procesuiranje teksta
 
-1. [Pretvori sirovi tekst u strukturirane podatke](https://www.tidytextmining.com/tidytext).
-    
 
-2. [Koristi ML za mapiranje tekstualnih značajki na ishod](https://smltar.com/).
-    
+<br><br>
 
-3. Koristi output iz koraka 2 kao novu varijablu u ekonomskoj analizi.
+::: {.columns}
+
+::: {.column width="33%"}
+#### [1. Strukturiranje](https://www.tidytextmining.com/tidytext)
+
+<br>
+
+Pretvaramo sirovi, nestrukturirani tekst u čiste, **[tidy](https://vita.had.co.nz/papers/tidy-data.pdf) podatke**.
+:::
+
+::: {.column width="33%"}
+#### [2. Modeliranje](https://smltar.com/)
+
+<br>
+
+Koristimo ML za mapiranje tekstualnih značajki na **željeni ishod** (npr. sentiment).
+:::
+
+::: {.column width="33%"}
+####  [3. Integracija](https://elliottash.com/wp-content/uploads/2023/04/Ash-Hansen-Text-Algorithms-Economics.pdf)
+
+<br>
+
+Rezultat ML modela koristimo kao **novu varijablu** u ekonomskoj analizi.
+:::
+
+:::
+
+<!-- . . . -->
+
+<!-- <small>Reference: [Tidy Text Mining](https://www.tidytextmining.com/tidytext), [Supervised Machine Learning for Text Analysis in R](https://smltar.com/)</small> -->
    
 
 ---
 
 
-### Računalne metode za obradu podataka (CSS)
+## Resursi za CSS
 
-* [Za početak](https://plain-text.co/)
+<br><br>
 
-* [Za još jedan početak](https://datascience.julianhinz.com/)
+::: {.columns}
 
-* [Nezaobilazni obrtnički priručnik](https://r4ds.had.co.nz/)
+::: {.column width="50%"}
+#### Temelji i alati
 
-* [Primjena korak po korak](https://github.com/uo-ec607/lectures)
+*   **R for Data Science**
+    *   Apsolutno nezaobilazna knjiga za rad s podacima u R-u.
+    *   *[r4ds.had.co.nz](https://r4ds.had.co.nz/)*
 
-* [Podatkovna statistika](https://stat545.com/)
+*   **Data Wrangling with R**
+    *   Odličan tečaj s fokusom na pripremu i čišćenje podataka.
+    *   *[stat545.com](https://stat545.com/)*
 
-* [Nezaobilazne vještine koje niste znali da vam nedostaju](https://missing.csail.mit.edu/)
+#### Obrtničke vještine
 
+*   **The Missing Semester**
+    *   Vještine koje vam trebaju, a niste znali: *command line*, Git, i dr.
+    *   *[missing.csail.mit.edu](https://missing.csail.mit.edu/)*
+:::
 
+::: {.column width="50%"}
+#### Tečajevi i primjeri
 
+*   **Data Science for Economists**
+    *   Odličan uvodni tečaj Juliana Hinza.
+    *   *[datascience.julianhinz.com](https://datascience.julianhinz.com/)*
+
+*   **UO EC607**
+    *   Konkretni primjeri i predavanja, korak po korak.
+    *   *[github.com/uo-ec607/lectures](https://github.com/uo-ec607/lectures)*
+
+*   **The Plain Person's Guide**
+    *   Filozofija rada u *plain textu* za dugoročnu održivost.
+    *   *[plain-text.co](https://plain-text.co/)*
+:::
+
+:::
 
 
 
@@ -185,15 +261,33 @@ Ovo je možda najznačajniji metodološki pomak. Tretira nestrukturirani tekst k
 ---
 
 
-## Analiza teksta
+## Analiza dezinformacija
 
-<br><br>
+<br>
 
-- [Projekt analize dezinfomacija ](https://www.unicath.hr/index.php/projekti/digitheal/kat) 
+Projekt HKS-a.
 
-<br><br>
+<br>
 
-- [Aplikacija]([Projekt analize dezinfomacija ](https://www.unicath.hr/index.php/projekti/digitheal/kat) ) 
+::: {.columns}
+
+::: {.column width="50%"}
+#### Istraživački projekt
+
+*   **Cilj:** Borba protiv digitalnih dezinformacija o religiji.
+*   **Metode:** Analiza teksta i strojno učenje za identifikaciju štetnih narativa.
+*   **Više o projektu:** [unicath.hr/digitheal](https://www.unicath.hr/index.php/projekti/digitheal/kat)
+:::
+
+::: {.column width="50%"}
+#### Interaktivna aplikacija
+
+*   **Svrha:** Omogućuje provjeru dezinformacija.
+*   **Tehnologija:**  Shiny.
+*   **Isprobajte:** [;-)](https://kat.unicath.hr)
+:::
+
+:::
 
 
 
@@ -202,8 +296,8 @@ Ovo je možda najznačajniji metodološki pomak. Tretira nestrukturirani tekst k
 
 ## Analiza sentimenta
 
-![](epu.png)
 
+![](epu.png)
 
 
 
@@ -222,38 +316,72 @@ Ovo je možda najznačajniji metodološki pomak. Tretira nestrukturirani tekst k
 
 ## Komunikacija središnjih banaka
 
-![](hnb1.png)
----
+::: {.panel-tabset}
+#### Koncept
 
-## Komunikacija središnjih banaka
+<br>
+
+* Sve objave na web-u u kojima se spominje HNB. 
+
+
+* Otprilike 21k objava.
+
+
+* 2021 - 05/2024.
+
+
+#### Interes javnosti
+
+![](hnb1.png)
+
+
+#### HNB stručnost 
 
 ![](hnb2.png)
----
 
-## Komunikacija središnjih banaka
+
+#### Odnos...
 
 ![](hnb3.png)
+
+:::
+
 ---
 
 ##  Ekonomija društvenih medija
-![](mediji.png)
 
+
+![](mediji.png)
 
 
 ---
 
-##  Otvoreni pristup i reproducibilnost
+## Otvorenost i reproducibilnost
+
+::: {.columns}
+
+::: {.column width="50%"}
+####  Otvoreni pristup
+
+> Sav kod, podaci i rezultati su javno dostupni, omogućujući transparentnost i suradnju.
+
+**Primjer:** Projekt DigiKat
+
+*   [Interaktivna stranica za analizu katoličke tematike.](https://lusiki.github.io/DigiKat/)
+:::
+
+::: {.column width="50%"}
+#### Reproducibilnost
+
+> Svatko može, koristeći naš kod i podatke, ponoviti analizu i dobiti identične rezultate.
+
+**Primjer:** Znanstveni rad
 
 
-<br><br>
+*   [Potpuni kod za analizu sloma klasičnog portfelja](https://github.com/lusiki/The-Breakdown-of-the-Classic-Portfolio-Hedge-A-Comprehensive-Markov-Switching-Analysis)
+:::
 
-- Otvoreni pristup na projektu [analize katoličke tematike](https://lusiki.github.io/DigiKat/)
-
-
-<br><br>
-
-
-- Repoducibilnost na primjeru  [znastvenog rada u objavi](https://github.com/lusiki/The-Breakdown-of-the-Classic-Portfolio-Hedge-A-Comprehensive-Markov-Switching-Analysis)
+:::
 ---
 
 ## 4. Izazovi i nove granice
