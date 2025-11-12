@@ -33,7 +33,7 @@ lang: hr
 
 ## 1. Novi ekonomski krajolik
 <br>
-[Digitalna ekonomija](https://mitsloan.mit.edu/shared/ods/documents?PublicationDocumentID=5901) ne odnosi se samo na nove podatke. Radi se o novim ekonomskim strukturama koje proizvode te podatke.
+[Digitalna ekonomija](https://www.ucg.ac.me/skladiste/blog_623598/objava_202643/fajlovi/Introduction_to_Digital_Economics.pdf) ne odnosi se samo na nove podatke. Radi se o novim ekonomskim strukturama koje proizvode te podatke.
 <br><br>
 
 Pri tome ne govorimo o zamjeni za staru teoriju, već **pomaku u naglasku**.
@@ -113,26 +113,9 @@ Ovaj skup podataka obuhvaća cjelokupni digitalni medijski prostor RH.
 
 :::
 
-## 2. Novi ekonomski alati
-
-
-> Kako su se ekonomisti prilagodili novim podacima?
-
-<br>
-
-* [Strojno učenje](https://www.nber.org/system/files/chapters/c14009/c14009.pdf)
-
-<br>
-
-* [Analiza teksta](https://web.stanford.edu/~gentzkow/research/text-as-data.pdf) 
-
-<br>
-
-* [Računalne metode za obradu podataka](https://link.springer.com/book/10.1007/978-3-030-66891-4)
-
-
 
 ---
+
 
 ### Posljedica 2: Uspon platformi
 
@@ -150,8 +133,27 @@ Ovaj skup podataka obuhvaća cjelokupni digitalni medijski prostor RH.
 
 
 
+---
 
 
+
+
+## 2. Novi ekonomski alati
+
+
+> Kako su se ekonomisti prilagodili novim podacima?
+
+<br>
+
+* [Strojno učenje](https://www.nber.org/system/files/chapters/c14009/c14009.pdf)
+
+<br>
+
+* [Analiza teksta](https://web.stanford.edu/~gentzkow/research/text-as-data.pdf) 
+
+<br>
+
+* [Računalne metode za obradu podataka](https://link.springer.com/book/10.1007/978-3-030-66891-4)
 
 
 
@@ -360,7 +362,7 @@ Projekt HKS-a.
 
 
 
-> Izračunato prema [Baker et al., 2016](https://www.nber.org/system/files/working_papers/w22740/w22740.pdf)
+> Izračunato prema [Baker et al., 2016](https://www.policyuncertainty.com/)
 
 ---
 
